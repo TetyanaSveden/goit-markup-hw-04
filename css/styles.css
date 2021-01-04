@@ -366,3 +366,8 @@ nav .links.current {
 .text-links {
   padding: 20px 24px;
 }
+
+/* our clients*/
+.clients-list {
+  display: flex;
+}
