@@ -6,7 +6,7 @@
 
   --text-color-white: var(--main-background-color);
   --text-color-dark: #212121;
-  --text-color-gray: #757575;
+  --text-color-grey: #757575;
   --text-color-lightblue: #2196f3;
   --text-color-black: #000000;
   --text-color-grey-through: rgba(255, 255, 255, 0.6);
@@ -52,7 +52,7 @@ nav .links.current {
   padding: 0 15px;
 }
 .phonesvg {
-  fill: var(--text-ikons-grey);
+  fill: var(--text-color-grey);
   margin-right: 10px;
   align-items: center;
 }
@@ -104,7 +104,7 @@ nav .links.current {
 
 /* contacts */
 .phone-color {
-  color: var(--text-color-gray);
+  color: var(--text-color-grey);
   text-decoration: none;
   font-weight: 500;
   line-height: 16px;
@@ -220,7 +220,7 @@ nav .links.current {
 
 /* our services */
 .text-color {
-  color: var(--text-color-gray);
+  color: var(--text-color-grey);
   line-height: 1.71;
 }
 .ourquality {
@@ -269,7 +269,7 @@ nav .links.current {
   margin-bottom: 10px;
 }
 .occupation {
-  color: var(--text-color-gray);
+  color: var(--text-color-grey);
   font-size: 16px;
   line-height: 19px;
   text-align: center;
@@ -356,7 +356,7 @@ nav .links.current {
 }
 
 .portfolio-text-color {
-  color: var(--text-color-gray);
+  color: var(--text-color-grey);
   font-size: 16px;
   line-height: 1.87;
 }
