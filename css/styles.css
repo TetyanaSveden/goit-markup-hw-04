@@ -3,6 +3,7 @@
   --dark-background-color: #2f303a;
   --blue-light-color: #2196f3;
   --line-color: #ececec;
+  --background-picture: #f5f4fa;
 
   --text-color-white: var(--main-background-color);
   --text-color-dark: #212121;
@@ -242,6 +243,21 @@ nav .links.current {
   padding-bottom: 94px;
 }
 
+.service-ikons {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+.pic-border {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 120px;
+  background: var(--background-picture);
+  border-radius: 4px;
+}
+
 /* what do we do */
 .whatwedo {
   font-weight: bold;
@@ -302,11 +318,12 @@ nav .links.current {
   justify-content: center;
 }
 .ikonssvg {
-  color: var(--line-color);
+  color: var(--main-background-color);
 }
 .ikonssvg:hover,
 .ikonssvg:focus {
   color: var(--main-background-color);
+  fill: var(--main-background-color);
 }
 
 .link-flow {
@@ -405,4 +422,26 @@ nav .links.current {
 /* our clients*/
 .clients-list {
   display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  fill: var(--text-ikons-grey);
+}
+.link-size {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+  align-items: center;
+  border: 1px solid #afb1b8;
+
+  border-radius: 4px;
+}
+
+.clients-color {
+  fill: var(--text-ikons-grey);
+}
+.clients-color:hover,
+.clients-color:focus {
+  fill: var(--text-color-lightblue);
 }
