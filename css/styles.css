@@ -65,6 +65,7 @@ nav .links.current {
   justify-content: space-between;
   display: flex;
   border-bottom: 1px solid var(--line-color);
+  align-items: center;
 }
 
 .header-color {
@@ -296,11 +297,6 @@ nav .links.current {
   padding-bottom: 94px;
 }
 
-.service-ikons {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 30px;
-}
 .pic-border {
   display: inline-flex;
   justify-content: center;
@@ -309,6 +305,7 @@ nav .links.current {
   height: 120px;
   background: var(--background-picture);
   border-radius: 4px;
+  margin-bottom: 30px;
 }
 
 /* what do we do */
@@ -493,13 +490,11 @@ nav .links.current {
   align-items: center;
   width: 170px;
   height: 90px;
-  align-items: center;
   border: 1px solid #afb1b8;
-
   border-radius: 4px;
 }
-.client-link:hover,
-.client-link:focus {
+.link-size:hover,
+.link-size:focus {
   color: #2196f3;
 }
 
