@@ -498,7 +498,8 @@ nav .links.current {
 
   border-radius: 4px;
 }
-.link-size:focus {
+.client-link:hover,
+.client-link:focus {
   color: #2196f3;
 }
 
