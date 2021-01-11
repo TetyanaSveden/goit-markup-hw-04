@@ -490,13 +490,14 @@ nav .links.current {
   align-items: center;
   width: 170px;
   height: 90px;
-  border: 1px solid #afb1b8;
+  border: 1px solid var(--text-ikons-grey);
   border-radius: 4px;
   color: var(--text-ikons-grey);
 }
 .link-size:hover,
 .link-size:focus {
-  color: #2196f3;
+  color: var(--text-color-lightblue);
+  border: 1px solid var(--blue-light-color);
 }
 
 .clients-color {
