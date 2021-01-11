@@ -139,6 +139,7 @@ nav .links.current {
   margin-left: auto;
   margin-right: auto;
   display: flex;
+  align-items: center;
 }
 
 .logo-footer {
@@ -480,7 +481,6 @@ nav .links.current {
 /* our clients*/
 .clients-list {
   display: flex;
-  justify-content: center;
   justify-content: space-between;
   fill: var(--text-ikons-grey);
 }
@@ -492,6 +492,7 @@ nav .links.current {
   height: 90px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  color: var(--text-ikons-grey);
 }
 .link-size:hover,
 .link-size:focus {
@@ -499,9 +500,5 @@ nav .links.current {
 }
 
 .clients-color {
-  fill: var(--text-ikons-grey);
-}
-.clients-color:hover,
-.clients-color:focus {
-  fill: var(--text-color-lightblue);
+  fill: currentColor;
 }
