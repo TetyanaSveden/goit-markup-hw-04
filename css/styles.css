@@ -215,6 +215,7 @@ nav .links.current {
 }
 .position-services {
   display: flex;
+  justify-content: center;
 }
 
 /* main section */
