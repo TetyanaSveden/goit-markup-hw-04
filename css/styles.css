@@ -472,7 +472,7 @@ nav .links.current {
 }
 .flex-links-element:hover,
 .flex-links-element:focus {
-  background: #ffffff;
+  background: var(--main-background-color);
   border: 1px solid #eeeeee;
   box-sizing: border-box;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
