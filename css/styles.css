@@ -203,7 +203,6 @@ nav .links.current {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  fill: var(--main-background-color);
   background-color: rgba(255, 255, 255, 0.1);
   margin-right: 10px;
 }
@@ -211,6 +210,9 @@ nav .links.current {
 .footer-link-flow:hover,
 .footer-link-flow:focus {
   background-color: var(--blue-light-color);
+}
+.footer-link-flow:last-child {
+  margin-right: 0;
 }
 
 .footer-position {
@@ -372,6 +374,7 @@ nav .links.current {
   justify-content: center;
 }
 .ikonssvg {
+  fill: var(--main-background-color);
   color: var(--main-background-color);
 }
 .ikonssvg:hover,
@@ -396,6 +399,9 @@ nav .links.current {
 }
 /*  portfolio buttons  */
 .buttons {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
   color: var(--text-color-dark);
   cursor: pointer;
   border: none;
@@ -462,6 +468,7 @@ nav .links.current {
   border-left: 1px solid var(--line-color);
   border-bottom: 1px solid var(--line-color);
   text-align: left;
+  border: 1px solid transparent;
 }
 .flex-links-element:hover,
 .flex-links-element:focus {
