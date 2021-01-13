@@ -374,12 +374,14 @@ nav .links.current {
   justify-content: center;
 }
 .ikonssvg {
-  fill: var(--main-background-color);
   color: var(--main-background-color);
 }
 .ikonssvg:hover,
 .ikonssvg:focus {
   color: var(--main-background-color);
+  fill: var(--main-background-color);
+}
+.foot-ikonssvg {
   fill: var(--main-background-color);
 }
 
