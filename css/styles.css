@@ -46,6 +46,10 @@ nav .links.current {
   display: block;
 }
 
+img {
+  display: block;
+}
+
 /* header */
 .container {
   width: 1200px;
