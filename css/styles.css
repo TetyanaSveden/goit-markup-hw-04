@@ -333,11 +333,10 @@ img {
   border-radius: 4px;
   margin-bottom: 30px;
 }
-/* krycka */
+
 .owerflov {
   padding-top: 94px;
 }
-/* krycka */
 
 /* what do we do */
 .whatwedo {
@@ -357,6 +356,30 @@ img {
 }
 .pic-list:last-child {
   margin-right: 0;
+}
+
+.specifics-pocition {
+  position: relative;
+}
+
+.specifics-place {
+  position: absolute;
+
+  width: 100%;
+  height: 70px;
+  bottom: 0;
+  text-align: center;
+  background: rgba(47, 48, 58, 0.8);
+}
+.specifics {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-background-color);
+  padding: 27px 0;
 }
 
 /*  our collegues  */
